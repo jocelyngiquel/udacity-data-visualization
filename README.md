@@ -2,7 +2,6 @@
 
 ## 1- Context
 This project has two parts that demonstrate the importance and value of data visualization techniques in the data analysis process. In the first part, Python visualization libraries are used to systematically explore a selected dataset, starting from plots of single variables and building up to plots of multiple variables. In the second part, a short presentation illustrates interesting properties, trends, and relationships discovered in the selected dataset. The primary method of conveying findings will be through transforming your exploratory visualizations from the first part into polished, explanatory visualizations.
-Find the code walkthrough [here](https://jocelyngiquel.github.io/udacity-data-visualization/data_viz_divvy.html) and the visualizations slideshow [here](https://jocelyngiquel.github.io/udacity-data-visualization/data_viz_divvy_slideshow.html).
 
 ## 2- Data set used
 2017 individual bike trips information from the city of Chicago, available through [Divvy system data website ](https://www.divvybikes.com/system-data) either downloaded from the website or collected programmatically from the available web JSON feed.
@@ -16,7 +15,11 @@ The data analysis and visulization process are performed using Python 3.6 with t
 - Requests 2.18.4
 - Folium 0.7.0
 
-## 4- Resources
+## 4- Output and findings
+Find the code walkthrough [here](https://jocelyngiquel.github.io/udacity-data-visualization/data_viz_divvy.html) and the visualizations slideshow [here](https://jocelyngiquel.github.io/udacity-data-visualization/data_viz_divvy_slideshow.html).  
+This bike sharing network dataset can analyzed through various angles but what retained my attention was the peaks in the utilization of the network during working days at "standards" commuting hours (8AM and 5PM), illustrated with countplots. I have then tried to display on a map the assumed movements of users from residential areas to working areas around these peak hours, illustrated with the follium map package.
+
+## 5- Resources
 - Kaggle dataset on bike data in SF - https://www.kaggle.com/benhamner/sf-bay-area-bike-share
 - Python chart gallery with cookbook recipes - https://python-graph-gallery.com/
 - Python Seaborn documentation - https://seaborn.pydata.org/tutorial.html#tutorial

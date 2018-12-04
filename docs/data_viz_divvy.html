@@ -12341,9 +12341,8 @@ Name: usertype, dtype: int64</pre>
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p>What are the most and less common trip durations?</p>
-<p>How does the average trip take</p>
-<p>Is there a difference between one time customers and subscribers?</p>
+<h4 id="What-are-the-most-and-less-common-trip-durations?">What are the most and less common trip durations?<a class="anchor-link" href="#What-are-the-most-and-less-common-trip-durations?">&#182;</a></h4><h4 id="How-does-the-average-trip-take?">How does the average trip take?<a class="anchor-link" href="#How-does-the-average-trip-take?">&#182;</a></h4><p><em>Input data</em>:  Duration of each bike trip and count of trip.<br>
+<em>Plot type</em>: Count plot. A count plot can be thought of as a histogram across a categorical (trip durations in this example), instead of quantitative, variable.</p>
 
 </div>
 </div>
@@ -12402,7 +12401,17 @@ Name: usertype, dtype: int64</pre>
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p>The bike trip duration distribution si skewed to the left, with a top duration being 6 min. The average duration over the complete dataset is 12.7 min</p>
+<p><em>Plot interpretation</em>:The bike trip duration distribution si skewed to the left, with a top duration being 6 min. The average duration over the complete dataset is 12.7 min.</p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h4 id="Is-there-a-difference-between-one-time-customers-and-subscribers?">Is there a difference between one time customers and subscribers?<a class="anchor-link" href="#Is-there-a-difference-between-one-time-customers-and-subscribers?">&#182;</a></h4><p><em>Input data</em>:  Duration of each bike trip, count of trip and user types.<br>
+<em>Plot type</em>: Count plot. A count plot can be thought of as a histogram across a categorical (trip durations in this example), instead of quantitative, variable. In this case, the visualization is split by user types.</p>
 
 </div>
 </div>
@@ -12466,7 +12475,7 @@ Name: usertype, dtype: int64</pre>
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p>The count of trips for the single rider is significantly lower than for members. However, the average bike trip duration is higher for one time customers.</p>
+<p><em>Plot interpretation</em>: The count of trips for the single rider is significantly lower than for members. However, the average bike trip duration is higher for one time customers.</p>
 
 </div>
 </div>
@@ -12484,10 +12493,8 @@ Name: usertype, dtype: int64</pre>
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p>What is the bike trip duration per user type?</p>
-<p>On the subscribers, how is the gender distribution looking</p>
-<p>What is the share of subscribers versus one time customers over 2017?</p>
-<p>Is there a difference between working days and weekends?</p>
+<h4 id="What-is-the-bike-trips-duration-distribution-per-user-type?">What is the bike trips duration distribution per user type?<a class="anchor-link" href="#What-is-the-bike-trips-duration-distribution-per-user-type?">&#182;</a></h4><p><em>Input data</em>: Bike trips durations and user types.<br>
+<em>Plot type</em>: A box plot (or box-and-whisker plot) shows the distribution of quantitative data in a way that facilitates comparisons between variables or across levels of a categorical variable. The box shows the quartiles of the dataset while the whiskers extend to show the rest of the distribution, except for points that are determined to be “outliers” using a method that is a function of the inter-quartile range.</p>
 
 </div>
 </div>
@@ -12538,7 +12545,17 @@ Name: usertype, dtype: int64</pre>
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p>Looking at the boxplot of the bike trip distribution, subscribers have shorter trip duration (distribution skewed left and asymmetic median location than one time customers.</p>
+<p><em>Plot interpretation</em>: Looking at the boxplot of the bike trip distribution, subscribers have shorter trip duration (distribution skewed left and asymmetic median location than one time customers.</p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h4 id="What-is-the-share-of-subscribers-versus-one-time-customers-over-2017?">What is the share of subscribers versus one time customers over 2017?<a class="anchor-link" href="#What-is-the-share-of-subscribers-versus-one-time-customers-over-2017?">&#182;</a></h4><h4 id="On-the-subscribers,-how-is-the-gender-distribution-looking?">On the subscribers, how is the gender distribution looking?<a class="anchor-link" href="#On-the-subscribers,-how-is-the-gender-distribution-looking?">&#182;</a></h4><p><em>Input data</em>: User types and user gender<br>
+<em>Plot type</em>: A pie chart (or a circle chart) is a circular statistical graphic, which is divided into slices to illustrate numerical proportion.</p>
 
 </div>
 </div>
@@ -12606,7 +12623,17 @@ Name: usertype, dtype: int64</pre>
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p>Subscribers represent the bulk of the Divvy bike users in 2017, and the subscibers are composed by 3/4 of men.</p>
+<p><em>Plot interpretation</em>: Subscribers represent the bulk of the Divvy bike users in 2017, and the subscibers are composed by 3/4 of men.</p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h4 id="Is-there-a-difference-between-working-days-and-weekends?">Is there a difference between working days and weekends?<a class="anchor-link" href="#Is-there-a-difference-between-working-days-and-weekends?">&#182;</a></h4><p><em>Input data</em>: User types and weekdays categories.<br>
+<em>Plot type</em>: A pie chart (or a circle chart) is a circular statistical graphic, which is divided into slices to illustrate numerical proportion.</p>
 
 </div>
 </div>
@@ -12675,7 +12702,7 @@ Name: usertype, dtype: int64</pre>
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p>The proportions of one time customers rise during weekends to 36% versus 12% during the week.</p>
+<p><em>Plot interpretation</em>: The proportions of one time customers rise during weekends to 36% versus 12% during the week.</p>
 
 </div>
 </div>
@@ -12693,8 +12720,8 @@ Name: usertype, dtype: int64</pre>
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p>What hours of the day are the most and less popular for bike trips using Divvy?</p>
-<p>Is there a difference between working days and weekends? And between user types?</p>
+<h4 id="What-hours-of-the-day-are-the-most-and-less-popular-for-bike-trips-using-Divvy?">What hours of the day are the most and less popular for bike trips using Divvy?<a class="anchor-link" href="#What-hours-of-the-day-are-the-most-and-less-popular-for-bike-trips-using-Divvy?">&#182;</a></h4><p><em>Input data</em>: Bike trip hour of the day and count of trips.<br>
+<em>Plot type</em>: Count plot. A count plot can be thought of as a histogram across a categorical (trip durations in this example), instead of quantitative, variable.</p>
 
 </div>
 </div>
@@ -12747,7 +12774,17 @@ Name: usertype, dtype: int64</pre>
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p>The usage of Divvy bikes is concentrated during daylight (6h to 21h), with two peaks of usage around 8h and 17h.</p>
+<p><em>Plot interpretation</em>: The usage of Divvy bikes is concentrated during daylight (6h to 21h), with two peaks of usage around 8h and 17h.</p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h4 id="Is-there-a-difference-between-working-days-and-weekends?-And-between-user-types?">Is there a difference between working days and weekends? And between user types?<a class="anchor-link" href="#Is-there-a-difference-between-working-days-and-weekends?-And-between-user-types?">&#182;</a></h4><p><em>Input data</em>: Bike trip hour of the day, count of trips, user types and weekdays categories.<br>
+<em>Plot type</em>: Count plot. A count plot can be thought of as a histogram across a categorical (trip durations in this example), instead of quantitative, variable. In this case, the visualization is split by user types and weekdays categories.</p>
 
 </div>
 </div>
@@ -12813,8 +12850,8 @@ Name: usertype, dtype: int64</pre>
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p>The count of trips per hour of the day for one time customers is similar between working days and weekends.</p>
-<p>For subscribers, the pattern of trips per hour of the day is different between workdays and weekends. During weekends, the pattenr is similar to the one of one time customers.</p>
+<p><em>Plot interpretation</em>: The count of trips per hour of the day for one time customers is similar between working days and weekends.<br>
+For subscribers, the pattern of trips per hour of the day is different between workdays and weekends. During weekends, the pattenr is similar to the one of one time customers.</p>
 
 </div>
 </div>
@@ -12832,9 +12869,8 @@ Name: usertype, dtype: int64</pre>
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p>For each day of the week, what hours of the day are the most and less popular for bike trips using Divvy?</p>
-<p>What day of the week are most and less popular for bike trips?</p>
-<p>Is there a difference between one time customers and subscribers?</p>
+<h4 id="For-each-day-of-the-week,-what-hours-of-the-day-are-the-most-and-less-popular-for-bike-trips-using-Divvy?">For each day of the week, what hours of the day are the most and less popular for bike trips using Divvy?<a class="anchor-link" href="#For-each-day-of-the-week,-what-hours-of-the-day-are-the-most-and-less-popular-for-bike-trips-using-Divvy?">&#182;</a></h4><p><em>Input data</em>: Bike trip hour of the day, Bike trip day of the week and count of trips.<br>
+<em>Plot type</em>: Line plot, a line joining fixed data points, in this case split by days of the week.</p>
 
 </div>
 </div>
@@ -12888,7 +12924,17 @@ Name: usertype, dtype: int64</pre>
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p>The count of trips on Divvy bikes is uniform on weekdays categories (work days versus weekends)</p>
+<p><em>Plot interpretation</em>: The count of trips on Divvy bikes is uniform on weekdays categories (work days versus weekends).</p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h4 id="What-day-of-the-week-are-most-and-less-popular-for-bike-trips?">What day of the week are most and less popular for bike trips?<a class="anchor-link" href="#What-day-of-the-week-are-most-and-less-popular-for-bike-trips?">&#182;</a></h4><h4 id="Is-there-a-difference-between-one-time-customers-and-subscribers?">Is there a difference between one time customers and subscribers?<a class="anchor-link" href="#Is-there-a-difference-between-one-time-customers-and-subscribers?">&#182;</a></h4><p><em>Input data</em>: Bike trip day of the week, user types and count of trips.<br>
+<em>Plot type</em>: Count plot. A count plot can be thought of as a histogram across a categorical (trip durations in this example), instead of quantitative, variable. In this case, the visualization is split by user types.</p>
 
 </div>
 </div>
@@ -12943,7 +12989,17 @@ Name: usertype, dtype: int64</pre>
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p>Monday to Friday are equally popular for bike trips amongst Subscriber, while weekends are more popular for one time customers.</p>
+<p><em>Plot interpretation</em>: Monday to Friday are equally popular for bike trips amongst Subscriber, while weekends are more popular for one time customers.</p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h4 id="What-day-of-the-week-are-most-and-less-popular-for-bike-trips?">What day of the week are most and less popular for bike trips?<a class="anchor-link" href="#What-day-of-the-week-are-most-and-less-popular-for-bike-trips?">&#182;</a></h4><h4 id="Is-there-a-difference-between-one-time-customers-and-subscribers?">Is there a difference between one time customers and subscribers?<a class="anchor-link" href="#Is-there-a-difference-between-one-time-customers-and-subscribers?">&#182;</a></h4><p><em>Input data</em>: Bike trip day of the week, user types and count of trips.<br>
+<em>Plot type</em>: A radar or spider or web chart is a two-dimensional chart type designed to plot one or more series of values over multiple quantitative variables. Each variable has its own axis, all axes are joined in the center of the figure.</p>
 
 </div>
 </div>
@@ -13070,7 +13126,7 @@ Name: usertype, dtype: int64</pre>
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p>Similar interpretation, with a different radar visualization</p>
+<p><em>Plot interpretation</em>: Similar interpretation, with a different radar visualization</p>
 
 </div>
 </div>
@@ -13088,9 +13144,8 @@ Name: usertype, dtype: int64</pre>
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p>For each month of the year, what hours of the day are the most and less popular for bike trips using Divvy?</p>
-<p>What month of the year are most and less popular for bike trips?</p>
-<p>Is there a difference between working days and weekends?</p>
+<h4 id="For-each-month-of-the-year,-what-hours-of-the-day-are-the-most-and-less-popular-for-bike-trips-using-Divvy?">For each month of the year, what hours of the day are the most and less popular for bike trips using Divvy?<a class="anchor-link" href="#For-each-month-of-the-year,-what-hours-of-the-day-are-the-most-and-less-popular-for-bike-trips-using-Divvy?">&#182;</a></h4><h4 id="What-month-of-the-year-are-most-and-less-popular-for-bike-trips?">What month of the year are most and less popular for bike trips?<a class="anchor-link" href="#What-month-of-the-year-are-most-and-less-popular-for-bike-trips?">&#182;</a></h4><p><em>Input data</em>: Bike trip month of the year, bike trip hour of the day and count of trips.<br>
+<em>Plot type</em>: Line plot, a line joining fixed data points, in this case split by month of the year over multiple graphs.</p>
 
 </div>
 </div>
@@ -13222,7 +13277,17 @@ Name: usertype, dtype: int64</pre>
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p>Month on month, the hourly trip count varies significantly. The count of trip is at his peak during the summer and at his lowest during the winter.</p>
+<p><em>Plot interpretation</em>: Month on month, the hourly trip count varies significantly. The count of trip is at his peak during the summer and at his lowest during the winter.</p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h4 id="Is-there-a-difference-between-working-days-and-weekends?">Is there a difference between working days and weekends?<a class="anchor-link" href="#Is-there-a-difference-between-working-days-and-weekends?">&#182;</a></h4><p><em>Input data</em>: Bike trip month of the year, bike trip hour of the day and count of trips.<br>
+<em>Plot type</em>: A box plot (or box-and-whisker plot) shows the distribution of quantitative data in a way that facilitates comparisons between variables or across levels of a categorical variable. The box shows the quartiles of the dataset while the whiskers extend to show the rest of the distribution, except for points that are determined to be “outliers” using a method that is a function of the inter-quartile range. In this case the data is split by weekday category.</p>
 
 </div>
 </div>
@@ -13282,7 +13347,7 @@ Name: usertype, dtype: int64</pre>
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p>The distribution of counts of trips per months varies depending on the month. Similar interpretation as the previous chart, the dsictribution of count widen and increases during the summer, while it shorten and decreases during the winter.</p>
+<p><em>Plot distribution</em>: The distribution of counts of trips per months varies depending on the month. Similar interpretation as the previous chart, the dsictribution of count widen and increases during the summer, while it shorten and decreases during the winter.</p>
 
 </div>
 </div>
